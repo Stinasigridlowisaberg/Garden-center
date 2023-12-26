@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Växtverket</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../formgivning-av-webbplats/bilder/1673545481.ico"><!--För logga i browser/stina-->
+
+      <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style-emelie.css" />
+</head>
+<body>
+    
+      <header >
+        <a href="#main" class="skip-to-main-content-link" tabindex="1">Skip to main content</a> 
+
+            <input type="checkbox" name="navigation" id="nav-toggle" class="nav-toggle" value="navigation" >
+            
+            <nav aria-label="Växtverket navigation">
+              <ul role="menubar" aria-label="Växtverket navigation">
+                  <li role="none" ><a href="index-emelie.html" role="menuitem" tabindex="2" title="länk till startsida">Startsida</a></li>
+                  <li role="none"><a href="webbshop-emelie.html" role="menuitem" tabindex="3" title="länk till sidan webbshop">Webbshop</a></li>
+                  <li role="none"><a href="odla-stina.html" tabindex="4" role="menuitem" title="länk till sidan gårdsbutik och växthus">Lär dig odla</a></li>
+                  <li role="none"><a href="Omoss-stina.html" tabindex="5" role="menuitem" title="länk till sidan om oss">Om oss</a></li>
+                  <li role="none">
+                      <form class="search" tabindex="6" role="search">
+                          <input type="text" placeholder="" name="search">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                  </li>
+               </ul>
+          </nav>
+        <a href="index.html" class="logo" tabindex="7" title="länk till startsidan"><img src="bilder/loggis.png" alt="växverkets logga" class="logo"></a>
+        <!-- <a href="index.html" class="logo"><img src="../formgivning av webbplats/bilder/loggis.png" alt="loggis" class="logo"></a> -->
+        <div class="shopping-cart"> 
+            <a href="#" tabindex="8" class="fas fa-shopping-cart" title="din varukorg"></a>
+        </div> 
+        <div class="nav-t">
+            <label for="nav-toggle" class="nav-toggle-label" id="navigation">
+                <span></span>
+            </label>
+        </div>
+    </header>
+    <div class="content-wrap">
+        <main  id="main" class="one">
+          <h1 class="">Växtvärket</h1>
+        <aside class="main-blocks" tabindex="9"><a href="webbshop-emelie.html">Webbshop</a></aside>
+        <aside class="main-blocks" tabindex="10"><a href="#opentime">Öppettider</a></aside>
+        </main>
+     
+
+        <section class="welcome" tabindex="11">
+       <h2>Historien om oss på Växtverket</h2>
+       <p>Inspirationen till utformningen av växthuset för Handelsträdgården Växtvärket har hämtats från det gamla växthuset som historiskt fanns vid trädgårdsmästarbostaden.</p>
+       <p>Vi, familjen Åkberg, driver tillsammans Växtvärket sedan 1930. Vi har många års erfarenhet med gedigen kunskap. 
+
+        Vi strävar efter att odla allting själva, och speciellt ekologiskt. För oss är klimatet viktigt. </p>
+       <a href="#" class="btn" tabindex="12">Läs mer</a>
+      </section>
+        <article class="opentime" id="opentime" tabindex="15">
+          <h2>Öppettider</h2>
+          <h3>måndag-torsdag</h3>
+          <p>10-18</p>
+          <h3>fredag-söndag</h3>
+          <p>10-14</p>
+        </article>
+        
+        <article class="learn" id="learn" tabindex="13">
+          <h2>Lär dig odla</h2>
+            
+            <p>Vi erbjuder olika kurser för att du enkelt ska lära dig att odla hemma, på din kolonilott, eller vart du vill.</p>
+            <a href="odla-stina.html" class="btn" tabindex="14">Läs mer</a>
+        </article>
+        <h2 id="popular" tabindex="16">Populärt</h2>
+        <article class="grid-container">
+
+          <article class="grid-item grid-item 1"> 
+            <article class="card stacked">
+              <img src="bilder/flower8.jpg" alt="">
+               <h2> Sen sommar</h2>
+               <p class="price"> 179 SEK</p>
+               <article class="shopping-button" tabindex="17"><a href="#" class="fas fa-shopping-cart"></a></article>
+            </article>
+          </article>
+
+          <article class="grid-item grid-item 1"> 
+            <article class="card stacked">
+              <img src="bilder/flower7.jpg" alt="">
+               <h2> En varm höst</h2>
+               <p class="price"> 149 SEK</p>
+               <article class="shopping-button" tabindex="18"><a href="#" class="fas fa-shopping-cart"></a></article>
+            </article>
+          </article>
+
+          <article class="grid-item grid-item 1"> 
+            <article class="card stacked">
+              <img src="bilder/flower6.jpg" alt="">
+               <h2> Mjuk rosa</h2>
+               <p class="price"> 279 SEK</p>
+               <article class="shopping-button" tabindex="19"><a href="#" class="fas fa-shopping-cart"></a></article>
+            </article>
+          </article>
+
+          <article class="grid-item grid-item 1"> 
+            <article class="card stacked">
+              <img src="bilder/flower5.jpg" alt="">
+               <h2>Monstera deliciosa</h2>
+               <p class="price"> 399 SEK</p>
+               <article class="shopping-button" tabindex="20"><a href="#" class="fas fa-shopping-cart"></a></article>
+            </article>
+          </article>
+          </article>
+        </div>
+          <footer class="footer-index" tabindex="21">
+            <img src="bilder/loggis.png" alt="logga" class="logo">
+            <div class="footerwrap">
+              <p><a href="Omoss-stina.html" title="länk till vägbeskrivning" tabindex="24">Hitta hit</a></p>
+              <p><a href="Omoss-stina.html" title="länk till kontaktalternativ" tabindex="25">Kontakta oss</a></p>
+          </div>
+        </footer>
+    
+
+</body>
